@@ -19,4 +19,4 @@ WHERE a.First_Name = 'J. K.' AND a.Last_Name = 'Rowling'
          )
    )
 GROUP BY a.Author_ID, a.First_Name, a.Last_Name
-ORDER BY a.Last_Name ASC, a.Author_ID DESC
+ORDER BY a.Last_Name ASC, a.Author_ID DESC;
